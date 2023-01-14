@@ -1,4 +1,4 @@
-<!-- Atributos globais são atributos aplicáveis em todas as Tags, sendo as principais: -->
+Atributos globais são atributos aplicáveis em todas as Tags, sendo as principais:
 
 <div class="conteúdo">
 </div>
@@ -218,7 +218,7 @@ ELEMENTOS GENÉRICOS
   <h1>Google</h1>
   <p>Claro que posso</p>
   <img src="https://source.unsplash.com/random" alt="">
-</a>
+</a> 
 
 
 <!-- URL e CAMINHOS DOS ARQUIOVOS -->
@@ -226,3 +226,92 @@ ELEMENTOS GENÉRICOS
 
 Pra ele ir para forda tenho que colocar https://google.com
 -->
+
+<!-- TABELAS -->
+
+<!-- Colocaremos o nosso cabeçalho, na tag <thead></thead> e o nosso corpo no <tbody></tbody> e criaremos o rodapé usando <tfoot></tfoot> colocando os dados total. -->
+
+<!-- Por fim poderemos colocar a tag <caption></caption> para descrever sobre o que a nossa tabela é, ficando mais ou menos assim: -->
+
+<table>
+
+    <caption>Pessoas por idade</caption>
+
+    <thead>
+        <tr>
+            <th>Nome</th>
+            <th>Idade</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Gabriel</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>Diego</td>
+            <td>15</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>Total:</td>
+            <td>2 Pessoas</td>
+        </tr>
+    </tfoot>
+
+</table>
+
+<table>
+     <caption>Produzidos x Vendidos por Loja</caption>
+
+     <colgroup>
+         <col>
+         <col span="2" style="background-color: blue;">
+         <col span="2" style="background-color: blueviolet;">
+    </colgroup>
+     <thead>
+        <tr>
+           <th rowspan="2"></th>
+           <th colspan="2" scope="colgroup">Gabriel</th>
+           <th colspan="2" scope="colgroup">Juan Luca</th>
+        </tr>
+
+        <tr>
+          <th scope="col">Vendidos</th>
+          <th scope="col">Produzidos</th>
+          <th scope="col">Vendidos</th>
+          <th scope="col">Produzidos</th>
+        </tr>
+     </thead>
+
+     <tbody>
+         <tr>
+            <th scope="row">Vassouras</th>
+            <td>50</td>
+            <td>30</td>
+            <td>20</td>
+            <td>10</td>
+         </tr>
+
+         <tr>
+          <th scope="row">Saco de lixo/th>
+          <td>20</td>
+          <td>310</td>
+          <td>230</td>
+          <td>0</td>
+       </tr>
+
+     </tbody>
+</table>
+
+<!-- HEAD -->
+<head>
+    <!-- Codificação de caracteres especias -->
+    <meta charset="UTF-8">
+
+    <!-- Portabilidade para dispositivos mobiles -->
+    <meta name="viwport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<link rel="" href="">
