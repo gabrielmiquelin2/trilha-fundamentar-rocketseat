@@ -1,8 +1,11 @@
-h1{
- color: blue;
- font-family: 'Caveat', cursive
-}
+div {
+  width: 100px;
+  height: 100px;
+  margin: 20% auto;
 
-strong {
-  color: aqua;
+  border: 20px solid red;
+  border-top: double yellow 6px;
+  border-bottom: none;
+
+  outline: gray 6px solid;
 }
