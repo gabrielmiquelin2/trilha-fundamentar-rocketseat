@@ -30,5 +30,5 @@ aside{
 }
 footer{
   grid-area: footer;
-  background-color: blueviolet;
+  background-color: rgb(38, 36, 40);
 }
