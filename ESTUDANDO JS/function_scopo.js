@@ -1,5 +1,5 @@
 
-let subjet = "Criar Vídeo"
+let subjet = "Fazer Vídeo"
 function criarPensamento(subjet) {
    subjet = "study"
    return subjet
