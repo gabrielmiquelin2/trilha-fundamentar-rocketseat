@@ -4,11 +4,11 @@
 
 
 //Declaração da função
-function criarFrases (){
+function criarFrase (){
   console.log("Estudar é muito bom")
   console.log("Revisão é a mãe do aprendizado")
   console.log("Disciplina é a chave")  
 }
 //Executar a função 
-criarFrases()
+criarFrase()
 console.log("Fim do programa")
