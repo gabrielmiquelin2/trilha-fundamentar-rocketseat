@@ -56,3 +56,51 @@ console.log(frase.includes("ser"))
 
 let myArray = new Array ("a","b","c","d")
 console.log(myArray)
+
+//Elementos do Array
+//Para contar a quantidade de elementos em um array pode-se usar o método length.
+
+console.log([
+  "a",
+  {type:"array"},
+  function(){
+    return "Salve Salve"
+  }
+][1].type) //vai mostrar o objeto array
+
+
+
+//Strings para arrays
+//Para transformar uma string em um array, pode-se usar o objeto Array com o método from(), passando como argumento a string a ser transformada em array. Por exemplo console.log(Array.from("developer").
+
+let sla = "Manipulação"
+console.log(Array.from(sla))
+
+
+
+// Manipulando arrays
+// Existem várias maneiras de manipular arrays, como: o método push(), que adiciona um elemento no final do array, o método unshift(), que adiciona um elemento no começo do array, o método pop(), que retira um elemento do final do array, o método shift(), que retira um elemento do começo do array, o método slice(), que recebe como argumentos a posição de início e a posição do fim da parte que você quer selecionar, e retorna os valores destas posições, o método splice(), que recebe como argumentos a posição de início e a quantidade de elementos que você quer remover e o método indexOff(), que encontra o index do valor que recebe como argumento em um array.
+
+let techs = ['html','css','scss']
+
+//ADCIONAR UM ITEM NO FIM
+techs.push("C++")
+
+//ADCIONAR NO COMEÇO
+techs.unshift("sql")
+
+//REMOVER DO FIM 
+techs.pop()
+
+//REMOVER DO COMEÇO
+techs.shift()
+
+//PEGAR SOMENTE  ALGUNS ELEMENTOS DO ARRAY
+console.log(techs.slice(1,2))
+
+//REMOVER 1 OU MAIS ITEMS EM QUALQUER POSIÇÂO DO ARRAY
+techs.splice(1, 1) //qual indice do array , quantos elementos 
+
+
+//ENCONTRAR A POSIÇÂO DE UM ELEMENTO NO ARRAY
+let index = techs.indexOf("css")
