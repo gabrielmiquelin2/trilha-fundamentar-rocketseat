@@ -3,7 +3,7 @@
 // De cima para baixo, do mais importante ao menos importante.
 
 /* 
-
+Do mais importante ao menos importante
 * grouping                      ( )
 * negação e incremento          ! ++ --
 * multiplicação e divisão       * /
