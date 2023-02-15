@@ -3,7 +3,7 @@
 let person = {
   name: "Gabriel",
   age: 30,
-  weight: 72
+  weight: 71
 }
 
 for (let property in person){//No obj pegue a propriedade
