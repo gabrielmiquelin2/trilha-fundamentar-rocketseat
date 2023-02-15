@@ -2,7 +2,7 @@
 
 let person = {
   name: "Gabriel",
-  age: 30,
+  age: 15,
   weight: 71
 }
 
